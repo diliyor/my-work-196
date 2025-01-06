@@ -1,0 +1,28 @@
+.container {
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+}
+.box1 {
+    background-color: aqua;
+}
+.box2 {
+    background-color: blue;
+}
+.box3 {
+    background-color: brown;
+}
+.box4 {
+    background-color: blueviolet;
+}
+.box5 {
+    background-color: chocolate;
+}
+.box6 {
+    background-color: yellow;
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
